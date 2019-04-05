@@ -1,0 +1,82 @@
+<body>
+  <div class="container mt-5">
+    <div class="row mb-3">
+      
+      <div class="col-md-4">
+        <a href="/rock" class="btn btn-outline-info btn-block">
+          <i class="far fa-hand-rock fa-fw"></i>
+            Play Rock
+        </a>
+      </div>
+      
+      <div class="col-md-4">
+        <a href="/paper" class="btn btn-info btn-block">
+          <i class="far fa-hand-paper fa-fw"></i>
+          Play Paper
+        </a>
+      </div>
+      
+      <div class="col-md-4">
+        <a href="/scissors" class="btn btn-outline-info btn-block">
+          <i class="far fa-hand-scissors fa-fw"></i>
+            Play Scissors
+        </a>
+      </div>
+      
+      </div>
+    
+    <div class="row mb-1">
+      
+      <div class="col-md-6">
+            <div class="card border-success mb-3">
+            <div class="card-body text-success text-center">
+              <h2 class="card-title text-play">We played paper!</h2>
+    
+              <p class="card-text">
+                <i class="far fa-hand-paper fa-10x"></i>
+              </p>
+            </div>
+          </div>
+      </div>
+      
+      <div class="col-md-6">
+            <div class="card border-danger mb-3">
+              <div class="card-body text-danger text-center">
+                <h2 class="card-title text-play">They played <%= @computer_move %>!</h2>
+      
+                <p class="card-text">
+                  <i class="far fa-hand-paper fa-10x"></i>
+                </p>
+              </div>
+            </div>
+      </div>
+      
+    </div>
+    
+    <div class="row mb-1">
+      <div class="col-md-12">
+          <div class="alert alert-warning" role="alert">
+            <h2 class="text-center text-result">
+              We <%= @outcome %>!
+            </h2>
+          </div>
+      </div>
+    </div>
+    
+    <div class="row mb-3">
+      <div class="col-md-12 text-center">
+              <a href="/">
+              Rules
+              </a>
+      </div>
+    </div>
+    
+  </div>
+  
+</body>
+
+<!--<h1>We played paper!</h1>-->
+
+<!--<h1>They played <%= @computer_move %>!</h1>-->
+        
+<!--<h1>We <%= @outcome %>!</h1>-->

@@ -1,0 +1,61 @@
+.fancy-link {
+  border-color: rgb(23, 162, 184);
+  border-radius: 10px;
+  border-style: solid;
+  border-width: 2px;
+  box-sizing: border-box;
+  color: rgb(23, 162, 184);
+  display: inline-block;
+  padding: 5px;
+  text-align: center;
+  text-decoration: none;
+  transition-duration: 0.5s;
+  transition-property: all;
+  width: 100%;
+}
+
+.fancy-link:hover {
+  background-color: rgb(23, 162, 184);
+  color: white;
+}
+
+.fancy-link-active {
+  background-color: rgb(23, 162, 184);
+  color: white;
+}
+
+.panel-image {
+  width: 100%;
+}
+
+h1 {
+  font-size: 72px;
+  font-weight: 300;
+}
+
+h2 {
+  font-size: 50px;
+}
+
+.intro-para {
+  font-size: 20px;
+  font-weight: 300;
+}
+
+.moves-table {
+  text-align: center;
+  width: 100%;
+}
+
+.body-padding {
+  padding-right: 100px;
+}
+
+.text-result {
+  font-weight: 300;
+  font-size: 70px;
+}
+
+.text-play {
+  font-size: 32px;
+}
